@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		277D2B3B1B91FD9C00D99852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 277D2B3A1B91FD9C00D99852 /* main.m */; };
+		277D2B3E1B91FD9C00D99852 /* SVMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 277D2B3D1B91FD9C00D99852 /* SVMAppDelegate.m */; };
+		277D2B441B91FD9C00D99852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277D2B421B91FD9C00D99852 /* Main.storyboard */; };
+		277D2B461B91FD9C00D99852 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277D2B451B91FD9C00D99852 /* Images.xcassets */; };
+		277D2B8E1B920ADA00D99852 /* SVMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277D2B8D1B920ADA00D99852 /* SVMFirstViewController.m */; };
+		277D2B911B920AE500D99852 /* SVMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277D2B901B920AE500D99852 /* SVMSecondViewController.m */; };
+		277D2B961B92232400D99852 /* SVMThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277D2B951B92232400D99852 /* SVMThirdViewController.m */; };
+		27EB78C31B922E0D005B4083 /* SVMCustomTabSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78BC1B922E0D005B4083 /* SVMCustomTabSegue.m */; };
+		27EB78C41B922E0D005B4083 /* SVMDrawerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78BE1B922E0D005B4083 /* SVMDrawerCell.m */; };
+		27EB78C51B922E0D005B4083 /* SVMDrawerTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78C01B922E0D005B4083 /* SVMDrawerTabbarViewController.m */; };
+		27EB78C61B922E0D005B4083 /* SVMTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78C21B922E0D005B4083 /* SVMTabController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		277D2B351B91FD9C00D99852 /* SVMDrawerTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVMDrawerTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		277D2B391B91FD9C00D99852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277D2B3A1B91FD9C00D99852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		277D2B3C1B91FD9C00D99852 /* SVMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVMAppDelegate.h; sourceTree = "<group>"; };
+		277D2B3D1B91FD9C00D99852 /* SVMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVMAppDelegate.m; sourceTree = "<group>"; };
+		277D2B431B91FD9C00D99852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		277D2B451B91FD9C00D99852 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		277D2B8C1B920ADA00D99852 /* SVMFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMFirstViewController.h; sourceTree = "<group>"; };
+		277D2B8D1B920ADA00D99852 /* SVMFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMFirstViewController.m; sourceTree = "<group>"; };
+		277D2B8F1B920AE500D99852 /* SVMSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMSecondViewController.h; sourceTree = "<group>"; };
+		277D2B901B920AE500D99852 /* SVMSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMSecondViewController.m; sourceTree = "<group>"; };
+		277D2B941B92232400D99852 /* SVMThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMThirdViewController.h; sourceTree = "<group>"; };
+		277D2B951B92232400D99852 /* SVMThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMThirdViewController.m; sourceTree = "<group>"; };
+		27EB78B91B922E0D005B4083 /* SVMCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMCommon.h; sourceTree = "<group>"; };
+		27EB78BB1B922E0D005B4083 /* SVMCustomTabSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMCustomTabSegue.h; sourceTree = "<group>"; };
+		27EB78BC1B922E0D005B4083 /* SVMCustomTabSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMCustomTabSegue.m; sourceTree = "<group>"; };
+		27EB78BD1B922E0D005B4083 /* SVMDrawerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMDrawerCell.h; sourceTree = "<group>"; };
+		27EB78BE1B922E0D005B4083 /* SVMDrawerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMDrawerCell.m; sourceTree = "<group>"; };
+		27EB78BF1B922E0D005B4083 /* SVMDrawerTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMDrawerTabbarViewController.h; sourceTree = "<group>"; };
+		27EB78C01B922E0D005B4083 /* SVMDrawerTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMDrawerTabbarViewController.m; sourceTree = "<group>"; };
+		27EB78C11B922E0D005B4083 /* SVMTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMTabController.h; sourceTree = "<group>"; };
+		27EB78C21B922E0D005B4083 /* SVMTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMTabController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		277D2B321B91FD9C00D99852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277D2B2C1B91FD9C00D99852 = {
+			isa = PBXGroup;
+			children = (
+				277D2B371B91FD9C00D99852 /* SVMDrawerTabbar */,
+				277D2B361B91FD9C00D99852 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		277D2B361B91FD9C00D99852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				277D2B351B91FD9C00D99852 /* SVMDrawerTabbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		277D2B371B91FD9C00D99852 /* SVMDrawerTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				277D2B3C1B91FD9C00D99852 /* SVMAppDelegate.h */,
+				277D2B3D1B91FD9C00D99852 /* SVMAppDelegate.m */,
+				277D2B421B91FD9C00D99852 /* Main.storyboard */,
+				27EB78B81B922E0D005B4083 /* SVMDrawerTabbarViewController */,
+				277D2B5E1B91FF0000D99852 /* Classes */,
+				277D2B451B91FD9C00D99852 /* Images.xcassets */,
+				277D2B381B91FD9C00D99852 /* Supporting Files */,
+			);
+			path = SVMDrawerTabbar;
+			sourceTree = "<group>";
+		};
+		277D2B381B91FD9C00D99852 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				277D2B391B91FD9C00D99852 /* Info.plist */,
+				277D2B3A1B91FD9C00D99852 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		277D2B5E1B91FF0000D99852 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				277D2B841B92099100D99852 /* SVMFirstViewController */,
+				277D2B861B92099100D99852 /* SVMSecondViewController */,
+				277D2B931B92231A00D99852 /* SVMThirdViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		277D2B841B92099100D99852 /* SVMFirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				277D2B8C1B920ADA00D99852 /* SVMFirstViewController.h */,
+				277D2B8D1B920ADA00D99852 /* SVMFirstViewController.m */,
+			);
+			path = SVMFirstViewController;
+			sourceTree = "<group>";
+		};
+		277D2B861B92099100D99852 /* SVMSecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				277D2B8F1B920AE500D99852 /* SVMSecondViewController.h */,
+				277D2B901B920AE500D99852 /* SVMSecondViewController.m */,
+			);
+			path = SVMSecondViewController;
+			sourceTree = "<group>";
+		};
+		277D2B931B92231A00D99852 /* SVMThirdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				277D2B941B92232400D99852 /* SVMThirdViewController.h */,
+				277D2B951B92232400D99852 /* SVMThirdViewController.m */,
+			);
+			path = SVMThirdViewController;
+			sourceTree = "<group>";
+		};
+		27EB78B81B922E0D005B4083 /* SVMDrawerTabbarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27EB78B91B922E0D005B4083 /* SVMCommon.h */,
+				27EB78BA1B922E0D005B4083 /* SVMCustomTabSegue */,
+				27EB78BD1B922E0D005B4083 /* SVMDrawerCell.h */,
+				27EB78BE1B922E0D005B4083 /* SVMDrawerCell.m */,
+				27EB78BF1B922E0D005B4083 /* SVMDrawerTabbarViewController.h */,
+				27EB78C01B922E0D005B4083 /* SVMDrawerTabbarViewController.m */,
+				27EB78C11B922E0D005B4083 /* SVMTabController.h */,
+				27EB78C21B922E0D005B4083 /* SVMTabController.m */,
+			);
+			path = SVMDrawerTabbarViewController;
+			sourceTree = "<group>";
+		};
+		27EB78BA1B922E0D005B4083 /* SVMCustomTabSegue */ = {
+			isa = PBXGroup;
+			children = (
+				27EB78BB1B922E0D005B4083 /* SVMCustomTabSegue.h */,
+				27EB78BC1B922E0D005B4083 /* SVMCustomTabSegue.m */,
+			);
+			path = SVMCustomTabSegue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		277D2B341B91FD9C00D99852 /* SVMDrawerTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277D2B581B91FD9C00D99852 /* Build configuration list for PBXNativeTarget "SVMDrawerTabbar" */;
+			buildPhases = (
+				277D2B311B91FD9C00D99852 /* Sources */,
+				277D2B321B91FD9C00D99852 /* Frameworks */,
+				277D2B331B91FD9C00D99852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVMDrawerTabbar;
+			productName = SVMDrawerTabbar;
+			productReference = 277D2B351B91FD9C00D99852 /* SVMDrawerTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277D2B2D1B91FD9C00D99852 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SVM;
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = svmLogics;
+				TargetAttributes = {
+					277D2B341B91FD9C00D99852 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 277D2B301B91FD9C00D99852 /* Build configuration list for PBXProject "SVMDrawerTabbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 277D2B2C1B91FD9C00D99852;
+			productRefGroup = 277D2B361B91FD9C00D99852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277D2B341B91FD9C00D99852 /* SVMDrawerTabbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		277D2B331B91FD9C00D99852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277D2B441B91FD9C00D99852 /* Main.storyboard in Resources */,
+				277D2B461B91FD9C00D99852 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		277D2B311B91FD9C00D99852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EB78C61B922E0D005B4083 /* SVMTabController.m in Sources */,
+				27EB78C51B922E0D005B4083 /* SVMDrawerTabbarViewController.m in Sources */,
+				277D2B8E1B920ADA00D99852 /* SVMFirstViewController.m in Sources */,
+				277D2B3E1B91FD9C00D99852 /* SVMAppDelegate.m in Sources */,
+				277D2B3B1B91FD9C00D99852 /* main.m in Sources */,
+				277D2B911B920AE500D99852 /* SVMSecondViewController.m in Sources */,
+				277D2B961B92232400D99852 /* SVMThirdViewController.m in Sources */,
+				27EB78C31B922E0D005B4083 /* SVMCustomTabSegue.m in Sources */,
+				27EB78C41B922E0D005B4083 /* SVMDrawerCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		277D2B421B91FD9C00D99852 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277D2B431B91FD9C00D99852 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		277D2B561B91FD9C00D99852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		277D2B571B91FD9C00D99852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		277D2B591B91FD9C00D99852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SVMDrawerTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		277D2B5A1B91FD9C00D99852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SVMDrawerTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		277D2B301B91FD9C00D99852 /* Build configuration list for PBXProject "SVMDrawerTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277D2B561B91FD9C00D99852 /* Debug */,
+				277D2B571B91FD9C00D99852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277D2B581B91FD9C00D99852 /* Build configuration list for PBXNativeTarget "SVMDrawerTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277D2B591B91FD9C00D99852 /* Debug */,
+				277D2B5A1B91FD9C00D99852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277D2B2D1B91FD9C00D99852 /* Project object */;
+}
